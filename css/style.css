@@ -74,6 +74,18 @@ main{
     position: relative;
 }
 
+.clothes-item img{
+    width: 100%;
+}
+
+.clothes-item:hover img{
+    display: none;
+}
+
+.clothes-item:hover .img-hover{
+    display: block;
+}
+
 .clothes-item span{
     color: #000;
     font-size: 10px;
@@ -91,8 +103,8 @@ span.ex-price{
     color: #000;
 }
 
-.clothes-item img{
-    width: 100%;
+.img-hover{
+    display: none;
 }
 
 .clothes-tag{
