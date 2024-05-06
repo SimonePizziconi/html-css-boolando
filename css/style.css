@@ -1,0 +1,31 @@
+/* Regole generali css */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Regole Header */
+
+header{
+    background-color: #FF6900;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 900;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    /* DEBUG */
+    background-color: aqua;
+    height: 40px;
+    margin: auto;
+}
