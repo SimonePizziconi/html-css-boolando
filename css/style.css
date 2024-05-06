@@ -33,7 +33,6 @@ nav{
     align-items: center;
     justify-content: space-between;
     width: 70%;
-    /* DEBUG */
     height: 40px;
     margin: auto;
 }
@@ -60,7 +59,6 @@ header img{
 
 main{
     padding-top: 150px;
-    padding-bottom: 150px;
 }
 
 .clothes-section{
@@ -69,27 +67,45 @@ main{
     align-items: flex-start;
     flex-wrap: wrap;
     position: relative;
-    gap: 20px;
 }
 
 .clothes-item{
     width: 30%;
     position: relative;
-    /* DEBUG */
-    height: 300px;
-    background-color: blue;
 }
 
-.discount-conteiner{
-    width: 30%;
-    position: relative;
-    top: 250px;
-    left: 0;
+.clothes-item span{
+    color: #000;
+    font-size: 10px;
+}
+
+span.red-price{
+    color: red;
+}
+
+span.ex-price{
+    text-decoration: line-through;
+}
+
+.clothes-item h4{
+    color: #000;
+}
+
+.clothes-item img{
+    width: 100%;
+}
+
+.clothes-tag{
     display: flex;
+    position: relative;
     gap: 5px;
-    /* DEBUG */
-    height: 30px;
-    background-color: rgb(128, 113, 0);
+    bottom: 100px;
+    left: 0px;
+}
+
+.card{
+    padding: 5px;
+    font-size: 10px;
 }
 
 .discount-clothes{
@@ -104,10 +120,14 @@ main{
     position: absolute;
     top: 10px;
     right: 0;
-    /* DEBUG */
+    z-index: 500;
+    color: #000;
+    font-size: 20px;
+    text-align: center;
+    padding: 5px;
     background-color: white;
-    height: 15px;
-    width: 15px;
+    height: 30px;
+    width: 30px;
 }
 
 /* Regole css footer */
