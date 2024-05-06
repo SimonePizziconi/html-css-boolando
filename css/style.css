@@ -6,6 +6,11 @@
     box-sizing: border-box;
 }
 
+.conteiner{
+    width: 70%;
+    margin: auto;
+}
+
 /* Regole Header */
 
 header{
@@ -20,6 +25,83 @@ header{
 }
 
 nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    /* DEBUG */
+    background-color: aqua;
+    height: 40px;
+    margin: auto;
+}
+
+/* Regole main */
+
+main{
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.clothes-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    position: relative;
+    gap: 20px;
+}
+
+.clothes-item{
+    width: 30%;
+    position: relative;
+    /* DEBUG */
+    height: 300px;
+    background-color: blue;
+}
+
+.discount-conteiner{
+    width: 30%;
+    position: relative;
+    top: 250px;
+    left: 0;
+    display: flex;
+    gap: 5px;
+    /* DEBUG */
+    height: 30px;
+    background-color: rgb(128, 113, 0);
+}
+
+.discount-clothes{
+    background-color: red;
+}
+
+.quality-clothes{
+    background-color: green;
+}
+
+.heart{
+    position: absolute;
+    top: 10px;
+    right: 0;
+    /* DEBUG */
+    background-color: white;
+    height: 15px;
+    width: 15px;
+}
+
+/* Regole css footer */
+
+footer{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* DEBUG */
+    background-color: black;
+}
+
+footer nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
